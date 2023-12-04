@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "descricao": "some comment",
+      "valor": 1,
+      "status": null
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "descricao": "some comment",
+      "valor": 1,
+      "status": null
+    }
+  ],
+  "profile": {
+    "id": 1,
+      "descricao": "some comment",
+      "valor": 1,
+      "status": null
+  }
+}
