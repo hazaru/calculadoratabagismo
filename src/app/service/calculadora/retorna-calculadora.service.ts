@@ -12,7 +12,7 @@ export class RetornaCalculadoraService {
 
   constructor(private http: HttpClient) { }
 
-  private readonly API = 'http://localhost:3000/comments'
+  private readonly API = 'http://localhost:3000/cigarrosutilizados'
 
   listar(): Observable<ICalculadora[]> {
     return this.http.get<ICalculadora[]>(this.API)

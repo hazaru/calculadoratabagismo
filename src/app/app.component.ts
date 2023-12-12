@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,7 @@ export class AppComponent {
   fumadosNoMes: number = 0;
   fumadosHoje: number = 0;
   tempoDeVidaMedioPerdido = this.fumadosNoMes * 11;
+  registrationForm: FormGroup;
 
   totalGastoComCigarros = 13.3;
 

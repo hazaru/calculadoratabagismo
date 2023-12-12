@@ -1,5 +1,5 @@
 
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CadastroComponent } from './components/cadastro/cadastro.component';
 import { CalculadoraComponent } from './components/calculadora/calculadora.component';
@@ -8,6 +8,7 @@ import { ResumohojeComponent } from './components/resumohoje/resumohoje.componen
 import { ResumomesComponent } from './components/resumomes/resumomes.component';
 import { ResumogeralComponent } from './components/resumogeral/resumogeral.component';
 import { InicioComponent } from './components/inicio/inicio.component';
+import { HistoricoCadastroComponent } from './components/historico-cadastro/historico-cadastro.component';
 
 const routes: Routes = [
   {
@@ -42,6 +43,10 @@ const routes: Routes = [
   {
     path: 'resumo-geral',
     component: ResumogeralComponent
+  },
+  {
+    path: 'historico-cadastro',
+    component: HistoricoCadastroComponent
   }
 ];
 

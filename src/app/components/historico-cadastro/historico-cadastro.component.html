@@ -1,0 +1,46 @@
+<mat-horizontal-stepper linear [labelPosition]="'bottom'">
+  <mat-step label="inicio"
+    ><h1>Qual motivo te faz querer parar de fumar?</h1>
+    <div>
+    <button class="btn-primary">Quero melhorar minha saúde</button>
+    <br>
+    <br>
+    <button class="btn-primary width:60px">Quero melhorar minha saúde</button>
+    <br>
+    <br>
+    <button class="btn-primary">Quero economizar</button>
+    <br>
+    <br>
+    <button class="btn-primary">Quero melhorar minha saúde</button>
+    <br>
+    <br>
+    <button class="btn-primary">Quero melhorar minha saúde</button>
+    <br>
+    <br>
+    <button class="btn-primary">Quero melhorar minha saúde</button>
+    <br>
+    <br>
+    <button class="btn-primary">Quero melhorar minha saúde</button>
+  </div>
+  </mat-step>
+  <mat-step label="inicio2" completed="false"
+    ><p>Inicio2</p>
+    <div>
+      <button mat-button matStepperPrevious>Back</button>
+      <button mat-button matStepperNext>Next</button>
+    </div>
+    <ng-template matStepperIcon="phone">
+      <mat-icon>call_end</mat-icon>
+    </ng-template></mat-step
+  >
+
+  <mat-step label="inicio3" completed="false"
+    ><p>Inicio3</p>
+    <div>
+      <button mat-button matStepperPrevious>Back</button>
+      <button mat-button matStepperNext>Next</button>
+    </div>
+  </mat-step>
+
+  <mat-step label="inicio4" completed="false"><p>Inicio4</p></mat-step>
+</mat-horizontal-stepper>

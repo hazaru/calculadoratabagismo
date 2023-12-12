@@ -13,7 +13,11 @@ import { ResumomesComponent } from './components/resumomes/resumomes.component';
 import { ResumogeralComponent } from './components/resumogeral/resumogeral.component';
 import { Router } from '@angular/router';
 import { InicioComponent } from './components/inicio/inicio.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HistoricoCadastroComponent } from './components/historico-cadastro/historico-cadastro.component';
+import {MatStepperModule} from '@angular/material/stepper';
+import { MatIconModule } from '@angular/material/icon';
+
 
 @NgModule({
   declarations: [
@@ -24,14 +28,22 @@ import { FormsModule } from '@angular/forms';
     ResumohojeComponent,
     ResumomesComponent,
     ResumogeralComponent,
-    InicioComponent
+    InicioComponent,
+    HistoricoCadastroComponent
   ],
   imports: [
+    MatStepperModule,
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserModule, FormsModule, ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatIconModule,
+    MatStepperModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
