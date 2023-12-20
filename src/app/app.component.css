@@ -87,9 +87,9 @@
 
   .card {
     all: unset;
-    border-radius: 4px;
-    border: 1px solid #eee;
-    background-color: #fafafa;
+    border-radius: 50px;
+    border: 1px solid #eeeeeea1;
+    background-color: #2e2929;
     height: 40px;
     width: 200px;
     margin: 0 8px 16px;
@@ -100,6 +100,8 @@
     align-items: center;
     transition: all 0.2s ease-in-out;
     line-height: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #e1dada;
   }
 
   .card-container .card:not(:last-child) {

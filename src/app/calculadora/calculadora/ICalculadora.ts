@@ -1,8 +1,7 @@
-import { Status } from "src/app/enums/Status";
-
 export interface ICalculadora {
-  id: number,
-  descricao: string,
-  valor: number,
-  status: Status
+  name: string,
+  sobrenome: string,
+  email: string,
+  pais: string,
+  cidade: string
 }

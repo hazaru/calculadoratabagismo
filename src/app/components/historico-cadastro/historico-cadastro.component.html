@@ -1,44 +1,138 @@
 <mat-horizontal-stepper linear [labelPosition]="'bottom'">
-  <mat-step label="inicio"
-    ><h1>Qual motivo te faz querer parar de fumar?</h1>
-    <div>
-    <button class="btn-primary">Quero melhorar minha saúde</button>
-    <br>
-    <br>
-    <button class="btn-primary width:60px">Quero melhorar minha saúde</button>
-    <br>
-    <br>
-    <button class="btn-primary">Quero economizar</button>
-    <br>
-    <br>
-    <button class="btn-primary">Quero melhorar minha saúde</button>
-    <br>
-    <br>
-    <button class="btn-primary">Quero melhorar minha saúde</button>
-    <br>
-    <br>
-    <button class="btn-primary">Quero melhorar minha saúde</button>
-    <br>
-    <br>
-    <button class="btn-primary">Quero melhorar minha saúde</button>
-  </div>
-  </mat-step>
-  <mat-step label="inicio2" completed="false"
-    ><p>Inicio2</p>
-    <div>
-      <button mat-button matStepperPrevious>Back</button>
-      <button mat-button matStepperNext>Next</button>
+  <mat-step label="Motivos">
+    <div id="motivo" style="text-align: center">
+      <h1>Qual motivo te faz querer parar de fumar?</h1>
     </div>
-    <ng-template matStepperIcon="phone">
-      <mat-icon>call_end</mat-icon>
-    </ng-template></mat-step
+
+    <div class="card-container">
+
+      
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Quero melhorar minha saúde</b></span>
+      </a>
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Cigarros fumados no mês</b></span>
+      </a>
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Quero melhorar meu fôlego</b></span>
+      </a>
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Quero melhorar minha saúde</b></span>
+      </a>
+
+      <a class="card">
+        <span><b>Quero iniciar um esporte</b></span>
+      </a>
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Quero deixar uma pessoa que amo feliz</b></span>
+      </a>
+    </div>
+
+    <!-- <div style="align-items: center">
+      <button class="btn-primary">Quero melhorar minha saúde</button>
+      <br />
+      <br />
+      <button class="btn-primary">Quero melhorar meu fôlego</button>
+      <br />
+      <br />
+      <button class="btn-primary">Quero deixar uma pessoa que amo feliz</button>
+      <br />
+      <br />
+      <button class="btn-primary">Quero melhorar minha saúde</button>
+      <br />
+      <br />
+      <button class="btn-primary">Quero iniciar um esporte</button>
+      <br />
+      <br />
+      <button class="btn-primary">Quero melhorar minha saúde</button>
+      <br />
+      <br />
+      <button mat-raised-button>Basic</button>
+      <h3>Raised Buttons</h3>
+      <div class="example-button-row">
+        <button mat-raised-button>Basic</button>
+        <button mat-raised-button color="primary">Primary</button>
+        <button mat-raised-button color="accent">Accent</button>
+        <button mat-raised-button color="warn">Warn</button>
+        <button mat-raised-button disabled>Disabled</button>
+        <a mat-raised-button routerLink=".">Link</a>
+        <button mat-button>
+          <mat-icon>mic</mat-icon>
+          Start Recording
+        </button>
+        <button mat-raised-button color="accent">
+          <mat-icon>mic</mat-icon>
+          Start Recording
+        </button>
+      </div>
+    </div>-->
+  </mat-step>
+  <mat-step label="inicio2" completed="false">
+    <div id="qualidade_de_vida" style="text-align: center">
+      <h1>Como parar de fumar afetará sua qualidade de vida?</h1>
+    </div>
+
+    <div class="card-container">
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Não terei mais vergonha de estar no meio de pessoas</b></span>
+      </a>
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Não gastarei mais meu tempo com o cigarro</b></span>
+      </a>
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Não gastarei mais dinheiro com cigarro</b></span>
+      </a>
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Quero melhorar minha saúde</b></span>
+      </a>
+
+      <a class="card">
+        <span><b>Quero iniciar um esporte</b></span>
+      </a>
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Quero deixar uma pessoa que amo feliz</b></span>
+      </a>
+    </div></mat-step
   >
 
   <mat-step label="inicio3" completed="false"
-    ><p>Inicio3</p>
-    <div>
-      <button mat-button matStepperPrevious>Back</button>
-      <button mat-button matStepperNext>Next</button>
+    ><div id="motivo" style="text-align: center">
+      <h1>Já tentou parar de fumar alguma vez?</h1>
+    </div>
+
+    <div class="card-container">
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Sim! Utilizando </b></span>
+      </a>
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Cigarros fumados no mês</b></span>
+      </a>
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Quero melhorar meu fôlego</b></span>
+      </a>
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Quero melhorar minha saúde</b></span>
+      </a>
+
+      <a class="card">
+        <span><b>Quero iniciar um esporte</b></span>
+      </a>
+
+      <a class="card" target="_blank" rel="noopener">
+        <span><b>Quero deixar uma pessoa que amo feliz</b></span>
+      </a>
     </div>
   </mat-step>
 

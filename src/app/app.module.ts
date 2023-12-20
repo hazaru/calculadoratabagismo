@@ -16,7 +16,10 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HistoricoCadastroComponent } from './components/historico-cadastro/historico-cadastro.component';
 import {MatStepperModule} from '@angular/material/stepper';
-import { MatIconModule } from '@angular/material/icon';
+import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
+import {MatSelectModule} from '@angular/material/select';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -44,6 +47,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatIconModule,
     MatStepperModule,
     MatIconModule,
+    MatSelectModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
